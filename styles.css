@@ -1,0 +1,99 @@
+/*Justify-between might work for header logo*/
+.pagebody {
+    box-sizing: border-box;
+    display: block;
+    font-family: 'roboto', sans-serif;
+}
+.header {
+    background-color: #1f2937;
+    color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 100px;
+    margin: 0 auto;
+}
+
+/*Flexbox general*/
+
+.jc-space-around  {
+    justify-content: space-around;
+}
+.jc-space-evenly {
+    justify-content: space-evenly;
+}
+.jc-space-between {
+    justify-content: space-between;
+}
+.jc-center {
+    justify-content: center;
+}
+.ai-center {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+.block {
+    display: block;
+}
+
+.column {
+    flex-direction: column;
+}
+
+/*text general*/
+
+.text-center{
+    text-align: center; 
+    vertical-align: middle;
+}
+
+.no-margin {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.no-margin-left {
+    margin-left: 0px;
+}
+/*Unique classes*/
+
+.button {
+    background-color: #3882f6;
+    padding: 0.6em 2em;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.1em;
+    border: 0;
+    cursor: pointer;
+}
+
+.links {
+    margin-left: 1.5rem;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+.w-4 {
+    width: 450px;
+}
+
+.h-2 {
+    height: 200px;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 800;
+}
+.awesome-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-placeholder {
+    background-color: rgb(109, 116, 125);
+}
