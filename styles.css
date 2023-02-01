@@ -13,6 +13,24 @@
     margin: 0 auto;
 }
 
+.info {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 100px;
+    margin: 0 auto;
+}
+
 /*Flexbox general*/
 
 .jc-space-around  {
@@ -42,12 +60,12 @@
     flex-direction: column;
 }
 
-/*text general*/
-
-.text-center{
-    text-align: center; 
-    vertical-align: middle;
+.gap2 {
+    gap: 2em;
 }
+
+
+/*text general*/
 
 .no-margin {
     margin-top: 0px;
@@ -56,6 +74,12 @@
 
 .no-margin-left {
     margin-left: 0px;
+}
+
+.marginlr {
+    margin-left: 240px;
+    margin-right: 240px;
+
 }
 /*Unique classes*/
 
@@ -69,10 +93,26 @@
     cursor: pointer;
 }
 
+.infobox {
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 4px; 
+    border-color: #3882f6;
+    background-color: white;
+}
+
+.subtext {
+    width: 150px;
+    text-align: center2;
+    font-size: 16px;
+    color: #363636;
+}
+
 .links {
     margin-left: 1.5rem;
     align-items: center;
-    gap: 20px;
     flex-direction: row;
     padding-bottom: 50px;
 }
@@ -94,6 +134,20 @@
     color: #e5e7eb;
 }
 
+.infoheader {
+    font-size: 36px;
+}
+
+.quotetext {
+    color: #1f2937;  
+}
+
 .hero-placeholder {
     background-color: rgb(109, 116, 125);
+}
+
+.quoted {
+    text-align: right;
+    color: #1f2937;
+    font-weight: 700;
 }
