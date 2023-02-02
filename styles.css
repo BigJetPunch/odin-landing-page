@@ -31,6 +31,27 @@
     margin: 0 auto;
 }
 
+.signup {
+    display: flex;
+    margin: 100px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #f9faf8;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.cr {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    padding: 20px;
+
+}
+
 /*Flexbox general*/
 
 .jc-space-around  {
@@ -93,6 +114,18 @@
     cursor: pointer;
 }
 
+.button2 {
+    border-style: solid;
+    border-color: #f9faf8;
+    background-color: #3882f6;
+    padding: 0.6em 2em;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+    height: 42px;
+}
+
 .infobox {
     height: 150px;
     width: 150px;
@@ -123,6 +156,18 @@
 
 .h-2 {
     height: 200px;
+}
+
+.toptext {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-weight: 800;
+}
+
+.bottomtext {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: smaller;
 }
 
 .awesome {
